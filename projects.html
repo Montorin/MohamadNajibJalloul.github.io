@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ProjectStyle.css">
+    <title>Mohamad-Najib Jalloul - Portfolio</title>
+</head>
+	<body>
+		<header class="fixed-header">
+			<h1>Mohamad-Najib Jalloul</h1>
+			<p>Game Developer</p>
+			
+			<div class="top-bar">
+				<a id="choice" href="index.html">Home</a>
+				<a id="choice" href="about.html">About</a>
+				<a id="current" href="#">Projects</a>
+			</div>
+		</header>
+		
+		<section id="projects">
+			
+			<h2 id="subtitle">Projects</h2>
+			<div class="line"></div>
+			
+			<div class="project" onclick="showProjectDetails(1)">
+				<h3>Tank shooter</h3>
+				<p>This project is a tank shooting game.</p>
+				<br><br><br>
+				<img src="./img/Capture2.jpg" alt="Project Image" class="project-image">
+			</div>
+			
+			<p>Download Link for Tank Shooter (Compressed Unreal 5 Project):</p>
+				<a class="hyperlink" href="./Projects/TankShooter.zip">Tank Shooter (2.99GB)</a>
+			
+			<br><br>
+			
+			<div class="project" onclick="showProjectDetails(2)">
+				<h3>Solaris Assault</h3>
+				<p>This project is a top down bullet hell in 2D.</p>
+				<br><br><br>
+				<img src="./img/Capture.jpg" alt="Project Image" class="project-image">
+			</div>
+			
+				<p>Download Link for Solaris Assault (Compressed Unity Project):</p>
+					<a class="hyperlink" href="SolarisAssault.zip">Solaris Assault (1.31GB)</a>
+			
+			<br><br>
+			
+			<div class="project" onclick="showProjectDetails(3)">
+				<h3>Zombie Arcade</h3>
+				<p>This project was inspired by one of my favourite gamemodes</p>
+				<br><br>
+				<img src="./img/Capture1.jpg" alt="Project Image" class="project-image">
+			</div>
+				
+				<p>Download Link for Zombie Arcade (built Unity Project):</p>
+				<a class="hyperlink" href="https://drive.google.com/file/d/1p1ghrYDJ479O83mUWFZYimf08l8FMsGA/view?usp=sharing" target="_blank">Zombie Arcade (1GB)</a>
+				
+				<br><br>
+				
+				<p class="alone">Download Link for Zombie Arcade (Compressed Unity Project):</p>
+					<a class="hyperlink" href="./Projects/ZombieGame.zip">Zombie Arcade (13.1GB)</a>
+					
+				<br><br>
+		
+		</section>
+
+		<section id="project-details" class="hidden">
+			<h2>Project Details</h2>
+			<button onclick="hideProjectDetails()" id="exitprojectdetails">Close</button>
+			<div id="project-content"></div>
+		</section>
+		
+		<footer>
+			&copy; 2023 Mohamad-Najib Jalloul
+		</footer>
+		
+		<script src="./js/ProjectScript.js"></script>
+	</body>
+</html>
