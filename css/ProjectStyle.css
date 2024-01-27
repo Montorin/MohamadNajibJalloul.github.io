@@ -36,7 +36,6 @@ p {
     max-width: 600px;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 50px;
 }
 
 .project {
@@ -204,7 +203,17 @@ div + p
 {
 	position: relative;
 	border-top: 1px solid #2E5339;
-	top: -20px;
 	width: 125%;
 	margin-left: -65px;
+	margin-bottom: 20px;
+}
+
+h2 + p
+{
+	position: relative;
+    text-align: center;
+	color: #2E5339;
+	font-size: 40px;
+	margin-bottom: auto;
+	font-size: 1.5em;
 }

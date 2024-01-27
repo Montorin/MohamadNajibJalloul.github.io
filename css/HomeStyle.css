@@ -73,13 +73,12 @@ h2
 	letter-spacing: 2px;
 	color: #2E5339;
 	font-size: 40px;
-	margin-top: 150px;
+
 }
 
 h2 + p
 {
 	position: relative;
-	top: 25px;
 	letter-spacing: 1px;
 	color: #2E5339;
 	font-size: 21px;
@@ -111,8 +110,6 @@ section
 	position: relative;
 	text-align: center;
 	position: relative;
-	top: 25px;
-	margin-bottom: 20px;
 }
 
 .line
@@ -120,5 +117,4 @@ section
 	position: relative;
 	width: 70%;
 	border-top: 1px solid #2E5339;
-	top: -70px;
 }
