@@ -123,7 +123,7 @@ section
 	position: relative;
     width: 800px;
     height: 400px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 p + p + p + p
