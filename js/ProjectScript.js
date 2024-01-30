@@ -12,7 +12,7 @@ function hideProjectDetails() {
 function getProjectDetails(projectId) {
     
     const projectDetails = {
-        1: '<p>Here is how the project turned out:</p><p>•Movable Tank.</p><p>• Turret enemies.</p><p>• Smooth Aiming and moving.</p><br><p>Here is what was not done:</p><p>• Complete level with a start and an end.</p><p>• Score system.</p><p>• Death screen and main menu.</p><br><p>Here is what I have learned from this project:</p><p>• The creation of classes in Unreal Engine.</p><p>• The usage of the Unreal Engine Library.</p><p>• C++ and blueprint relations in Unreal Engine.</p>',
+        1: '<p>Here is how the project turned out:</p><p>• Movable Tank.</p><p>• Turret enemies.</p><p>• Smooth Aiming and moving.</p><br><p>Here is what was not done:</p><p>• Complete level with a start and an end.</p><p>• Score system.</p><p>• Death screen and main menu.</p><br><p>Here is what I have learned from this project:</p><p>• The creation of classes in Unreal Engine.</p><p>• The usage of the Unreal Engine Library.</p><p>• C++ and blueprint relations in Unreal Engine.</p>',
         
 		2: '<p>Here is how the project turned out:</p><p>• Multiple different enemies.</p><p>• Multiple different player abilities.</p><p>• A boss at the end of the level.</p><br><p>Here is what was not done:</p><p>•Developped Skill tree for permanent progression.</p><p>• Different levels to play through.</p><p>• Sound system.</p><br><p>Here is what I have learned from this project:</p><p>• Usage of the Unity engine and pipelines.</p><p>• Usage of the Unity Engine Library</p><p>• Object pooling.</p>',
 
